@@ -60,4 +60,33 @@ body{
     .fs-7 {
         font-size: 14px;
     }
+
+    .re-width {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .flex-sm {
+        flex-direction: column !important;
+    }
+
+    .heighty {
+        height: 37vh;
+        overflow-y: scroll;
+    }
+
+    .retop {
+        top: -9% !important;
+    }
+}
+
+@media (max-width: 376px) {
+    .sm-padding {
+        padding-top: 10rem !important;
+    }
+
+    .retop {
+        top: -8% !important;
+    }
 }
